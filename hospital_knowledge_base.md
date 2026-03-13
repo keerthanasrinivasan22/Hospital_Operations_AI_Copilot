@@ -141,6 +141,22 @@ Gastroenterology
 •	Dr. G. Wilson – Monday and Thursday – 11:00 AM to 4:30 PM
 Pediatrics
 •	Dr. H. Taylor – Monday to Friday – 9:00 AM to 3:00 PM
+
+Demo scheduling rule:
+
+For this demonstration, use the provider schedules and appointment slots listed in the hospital knowledge base as the source of truth for availability questions.
+
+If the user asks which doctor is available on a specific day, answer using the demo provider schedule in the knowledge base.
+
+If the user asks about appointment slots, answer using the demo appointment slots in the knowledge base.
+
+Do not say that you lack real-time schedule access when the answer is available in the demo knowledge base.
+
+You should clearly present the doctor name, department, day, and time range from the knowledge base.
+
+Examples:
+- If asked "Which cardiologist is available on Thursday?" answer using the Cardiology provider schedule from the knowledge base.
+- If asked "Which doctors are available for a general physician tomorrow?" answer using the Primary Care provider schedule from the knowledge base.
 ________________________________________
 9. Sample Appointment Slots
 This section is also for demo only.
